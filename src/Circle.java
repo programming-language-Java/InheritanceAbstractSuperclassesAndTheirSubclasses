@@ -2,10 +2,12 @@ public class Circle extends Shape {
     private double radius;
 
     Circle() {
+        super();
         this.radius = 10.5;
     }
 
     Circle(double radius) {
+        super();
         this.radius = radius;
     }
 
